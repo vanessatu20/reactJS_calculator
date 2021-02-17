@@ -1,0 +1,74 @@
+* {
+  font-family: "Avenir";
+}
+
+.calculatorBoard {
+  width: 27rem;
+  height: 32rem;
+  border: #C7C7C7 solid 2px;
+  border-radius: 30px;
+  margin: 5rem auto;
+}
+
+.display {
+  float: right;
+  padding: 3.5rem 0;
+  margin-right: 1.5rem;
+  font-size: 50px;
+  color: #5c5c5c;
+}
+
+.bottomPart {
+  width: 24rem;
+  height: 20rem;
+  display: flex;  
+  flex-wrap: wrap;
+  margin-left: 1rem;
+}
+
+.numberSection {
+  width: 15rem;
+}
+
+.nineNums {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+}
+
+.operatorSection {
+  width: 9rem;
+}
+
+.operators {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); 
+}
+
+.btn {
+  height: 4.3rem;
+  width: 4.3rem;
+  border-radius: 50px;
+  border: none;
+  margin: 0.3rem;
+  font-size: 1.5rem;
+  background-color: #dedede;
+}
+
+.btnOp {
+  color: white;
+  background-color: #b280e8;
+}
+
+.btnEqual {
+  color: white;
+  background-color: #8c68b3;
+}
+
+.btnAC {
+  color: white;
+  background-color: #d5b5f7;
+}
+
+.long {
+  width: 9.3rem;
+}
